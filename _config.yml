@@ -1,0 +1,6 @@
+name: lightmath
+markdown: rdiscount
+pygments: true
+encoding: utf-8
+
+destination: D:/GitHub/lightmath.github.io

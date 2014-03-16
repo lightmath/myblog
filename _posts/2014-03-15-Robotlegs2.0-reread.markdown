@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Robotlegs2.0探索
+date:   2014-03-15 22:32:26
+categories: study
+---
+
+## 概要 ##
+
+今天看了github上robotlegs2.0，又回味了一遍。简单记录下。网上zengrong的那个例子，跑起来后，显示上有问题的，很明显TimerInput里的子项实例化了两次。我在构造函数里修改了一下，就可以显示正常了。
