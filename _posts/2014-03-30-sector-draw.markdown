@@ -404,10 +404,9 @@ package
 			stage.scaleMode=StageScaleMode.NO_SCALE;
 			
 //			测试扇形绘制，请把下面两行的注释打开
-//			setTimeout(init, 5000);
-//			return;
+			setTimeout(init, 5000);
+			return;
 			
-//			具体情况下使用扇形倒计时
 			var sp:DisplayObject = new SKILL as DisplayObject;
 			sp.x=sp.y=100;
 			addChild(sp);
@@ -426,7 +425,8 @@ package
 		private function init():void
 		{
 			var sb:Shape = new Shape();
-			sb.graphics.lineStyle(3);
+			sb.graphics.lineStyle(3,0x00ffff,0.5);
+			sb.graphics.beginFill(0x00ffff,0.5);
 			sb.graphics.moveTo(200,200);
 			sb.graphics.lineTo(200,100);
 			addChild(sb);
